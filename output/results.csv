@@ -1,207 +1,201 @@
 ﻿ticket_id,member_id,received_date,category,action,is_guarantee_request,complaint_specificity,monthly_cap_hit,annual_cap_hit,reasons,book_titles,self_reported_same_cycle_conflict,multiple_distinct_requests,drafted_response
 T0005,M00061,2026-05-08,eligible_request,auto_issue_coupon,True,vague,False,False,Under both the monthly and annual caps; complaint reads as genuine.,The Astronomer's Wife,False,False,"Hi there,
 
-Thank you for being honest with us about how the past year has felt. I've gone ahead and applied a Reader's Guarantee credit for The Astronomer's Wife to your account, so you can pick something that's a better fit.
+Thank you for reaching out about The Astronomer's Wife — and for being so candid about how the past year has felt. I've gone ahead and applied a credit to your account for this title, so you can put it toward a book that's a better fit for you.
 
-I also want to say that I hear you on the bigger picture. A year of picks that keep missing is genuinely frustrating, especially when you're taking the time to leave real feedback each month. That feedback does matter to us, and I'd love for the next stretch to feel different than the last one.
+I also want to say that I hear the bigger picture here. You've been with us a full year now, you're taking the time to leave honest feedback every month, and the picks still keep landing off the mark for you. That's genuinely frustrating, and it's not the experience we want you to have. Your feedback does shape the recommendations we surface, so please keep it coming — the more specific, the better we can do by you.
 
-If it would help, keep an eye out for our monthly selection notes and staff picks — they often give a clearer sense of a book's tone and pacing before you commit, which can make the choice feel more like yours.
-
-Thanks for sticking with us this past year. We'd like to earn the next one.
+If it would help, I'm happy to pass along a few notes on what has and hasn't worked so far to see if we can steer things in a direction you'll actually love.
 
 Warmly,
 The Member Experience Team"
-T0008,M00204,2026-05-08,annual_cap_violation,auto_deny_with_explanation,True,vague,False,True,"Member has 3 redemptions in the trailing 12 months (cap is 3). | Complaint is generic/low-specificity -- a clean policy denial, no judgment call needed.",Bright Hollow,False,False,"Hi,
+T0008,M00204,2026-05-08,annual_cap_violation,auto_deny_with_explanation,True,vague,False,True,"Member has 3 redemptions in the trailing 12 months (cap is 3). | Complaint is generic/low-specificity -- a clean policy denial, no judgment call needed.",Bright Hollow,False,False,"Hi there,
 
-Thanks for reaching out about Bright Hollow, and I'm sorry the writing style didn't click for you — that's such a personal thing, and when a book's voice doesn't land, it can be hard to stay with it.
+Thanks for reaching out about Bright Hollow, and I'm sorry the writing style didn't land for you. That kind of thing is so personal, and it's genuinely disappointing when a book you were looking forward to just doesn't click.
 
-I do want to be straight with you about where things stand, though. Our Reader's Guarantee covers up to three books in a twelve-month stretch, and with Bright Hollow you've now reached that limit for the current period. Because of that, I'm not able to apply the guarantee to this one.
+I do want to be straight with you about where things stand. Our Reader's Guarantee covers up to three books in a 12-month stretch, and Bright Hollow would be your fourth in that window. Because of that, I'm not able to apply a credit for this one.
 
-I know that's not the answer you were hoping for, especially after 20 months with us, and I don't want to leave you with any false impression that it might change. The good news is your guarantee resets as the year rolls forward, so it'll be there for you again down the line.
+I know that's not the answer you were hoping for, especially after 20 months with us. The good news is that your count resets as the earlier redemptions age out of that 12-month window, so the guarantee will be available to you again before long.
 
-Thanks for being such a longtime part of our reading community — we're glad to have you.
+Thanks for being such a longtime reader, and here's hoping your next box is much more your speed.
 
 Warmly,
 The Member Experience Team"
 T0014,M00020,2026-05-08,other,escalate_to_human,False,vague,False,False,Not a Reader's Guarantee request (looks like: cancellation_retention).,,False,False,"Hi there,
 
-Thank you for reaching out, and for being with us this past year — it genuinely means a lot that you'd give us a chance to make things right before deciding whether to renew.
+Thank you for reaching out before making any decisions about your membership — I really appreciate you giving us the chance to help first.
 
-I want to make sure your note gets the attention it deserves. Since you mentioned the last couple of boxes haven't lived up to what you'd hoped, and you're weighing whether to stay with us, I'm passing this along to someone on our team who can look at your account and the recent boxes more closely and follow up with you directly.
+I'm sorry the last couple of boxes haven't landed the way you'd hoped. Something like that deserves a real conversation rather than a quick reply, so I've passed your note along to a member of our team who can look at your account and talk through your options with you directly. You can expect to hear from them soon.
 
-You'll hear back from a real person soon. In the meantime, I appreciate your patience, and thank you again for letting us know how you're feeling rather than just walking away.
-
-Warmly,
-The Member Experience Team"
-T0001,M00017,2026-05-09,eligible_request,auto_issue_coupon,True,specific,False,False,Under both the monthly and annual caps; complaint reads as genuine.,Bright Hollow,False,False,"Hi there,
-
-Thanks for reaching out, and I'm sorry Bright Hollow didn't land for you — there's nothing more disappointing than a book that sounds perfect on paper and then stalls out on you. Giving up around chapter 6 when the pacing just won't cooperate is completely fair.
-
-Good news: this is exactly what the Reader's Guarantee is for. I've gone ahead and added a coupon to your account for a future box, so you can put it toward a pick that's a better fit.
-
-You've been reading with us for a while now, and it's clear from your note that this one was just an off match rather than the norm — here's hoping the next one grabs you from page one.
-
-Happy reading,
-The Member Experience Team"
-T0007,M00006,2026-05-09,other,escalate_to_human,False,vague,False,False,Not a Reader's Guarantee request (looks like: damaged_item).,,False,False,"Hello,
-
-Thank you for letting us know about the condition your May book arrived in. A bent cover and pages that look like they've already been read through isn't the unboxing experience we want for you, and I completely understand why you'd want a fresh copy to enjoy.
-
-Since this is about the physical condition of the book rather than the story itself, I'd like to get one of our team members to take a closer look and help sort out a replacement. Someone will be following up with you directly soon.
-
-We really appreciate you being with us for the past three years, and thank you for your patience while we get this looked into.
+In the meantime, there's nothing you need to do — we'll come to you.
 
 Warm regards,
 The Member Experience Team"
-T0010,M00003,2026-05-09,eligible_request,auto_issue_coupon,True,vague,False,False,Under both the monthly and annual caps; complaint reads as genuine.,The Glass Orchard,False,False,"Hi there,
+T0001,M00017,2026-05-09,eligible_request,auto_issue_coupon,True,specific,False,False,Under both the monthly and annual caps; complaint reads as genuine.,Bright Hollow,False,False,"Hi there,
 
-Thanks for letting us know that The Glass Orchard didn't land for you this month. Not every pick is going to be a hit, and we're glad the Reader's Guarantee is here for exactly these moments.
+Thanks so much for writing in, and I'm sorry Bright Hollow didn't land for you. It's always a bit of a letdown when a book's description promises exactly your kind of read and then the pacing just doesn't carry you through — giving up around chapter 6 is a fair call when a story isn't pulling its weight.
 
-I've gone ahead and applied a credit to your account for this month's box, so you can put it toward a title that's more your speed.
+Good news: this is exactly what the Reader's Guarantee is for. I've gone ahead and added a coupon to your account to cover this month's box, so you can put it toward a future pick that's more your speed.
 
-Here's to your next great read.
+After more than a year with us and this being the first book that's missed the mark, I'd say your track record with our selections is pretty solid. Here's hoping the next one grabs you from page one.
+
+Happy reading,
+The Member Experience Team"
+T0007,M00006,2026-05-09,other,escalate_to_human,False,vague,False,False,Not a Reader's Guarantee request (looks like: damaged_item).,,False,False,"Hi there,
+
+Thanks for reaching out, and I'm sorry your May box showed up in that condition — a bent cover and dog-eared pages are definitely not how your book should arrive, especially when you haven't even had the chance to crack it open yet.
+
+Since this is about the physical condition of the book rather than the story inside, I'm passing your note along to a member of our team who handles replacements for damaged items. They'll be in touch soon to sort out a fresh copy for you.
+
+We really appreciate you being with us these past three years, and we want to get this made right. You'll hear from us shortly.
 
 Warmly,
 The Member Experience Team"
+T0010,M00003,2026-05-09,eligible_request,auto_issue_coupon,True,vague,False,False,Under both the monthly and annual caps; complaint reads as genuine.,The Glass Orchard,False,False,"Hi there,
+
+Thanks for letting us know that The Glass Orchard didn't land the way you'd hoped. Not every pick is going to be a match, and we're glad you flagged it.
+
+I've applied a Reader's Guarantee credit to your account for this month's box, so you can put it toward a title that's more your speed.
+
+Hope the next selection is a better fit — and thanks for being with us these past few months.
+
+The Member Experience Team"
 T0016,M00141,2026-05-09,other,escalate_to_human,False,vague,False,False,Not a Reader's Guarantee request (looks like: account_question).,,False,False,"Hi there,
 
-Thanks for reaching out, and good on you for wanting to stay on the right side of the guidelines!
+Thanks for reaching out, and for being part of our reading community these past 21 months!
 
-Your questions are a little different from the usual ones we handle here since you're asking about your own history with the Reader's Guarantee rather than making a new request. To give you accurate answers about when you can use it next and how many times you've used it in total, I've passed your note along to a teammate who can pull up your account and walk you through the specifics. Given that you've been with us for nearly two years, we want to make sure the details we give you are exactly right rather than a rough guess.
+Your question is a great one, but rather than give you a quick estimate off the top of my head, I want to make sure you get the exact, accurate picture on when you can use the Reader's Guarantee again and how many times you've used it so far. A member of our team is going to pull up your account details and follow up with you directly so you have the correct numbers to work with.
 
-Someone will follow up with you directly soon. We appreciate your patience in the meantime!
+You'll hear back from someone soon. Thanks for checking in before your next selection—we appreciate that kind of care!
 
 Warmly,
 The Member Experience Team"
 T0018,M00032,2026-05-09,eligible_request,auto_issue_coupon,True,vague,False,False,Under both the monthly and annual caps; complaint reads as genuine.,Other People's Weddings,False,False,"Hi there,
 
-Thanks for reaching out about your May box. I've gone ahead and applied a Reader's Guarantee credit for *Other People's Weddings* to your account, so you can put it toward a book you're genuinely excited to read.
+Thanks for reaching out about your May box. Other People's Weddings just didn't land for you, and that's exactly what the Reader's Guarantee is here for.
 
-You've been with us for over a year now, and we want each box to feel worth it—so I'm glad you let us know this one wasn't the right fit for you.
+I've gone ahead and issued a coupon to your account for a replacement pick, so you can put it toward a book you're actually excited to read.
 
-Happy reading,
+Thanks for being with us this past year — we're glad to have you as a member.
+
 The Member Experience Team"
 T0002,M00045,2026-05-10,eligible_request,auto_issue_coupon,True,vague,False,False,Under both the monthly and annual caps; complaint reads as genuine.,The Lantern Room,False,False,"Hi there,
 
-Thanks for letting us know that The Lantern Room didn't click for you. Reading slumps are real, and there's no shame in a few books in a row not landing right — sometimes it's the timing more than the titles.
+Thanks for letting us know that The Lantern Room didn't click for you. I've gone ahead and applied a Reader's Guarantee credit to your account for it.
 
-I've gone ahead and applied a credit to your account for The Lantern Room, so you can put it toward finding something that suits you better.
+For what it's worth, reading slumps happen to the best of us, and there's no need to force your way through a book that isn't landing right now. If you'd ever like a nudge toward something in a different direction to help shake things loose, just say the word — we're always happy to point you somewhere new.
 
-If it would help, we're always happy to hear a bit about what you're in the mood for — sometimes a change of genre or pace is exactly what breaks a slump. Just reply here and we'll point you toward a few possibilities.
+Happy reading whenever the mood strikes again.
 
-Hope your next pick is the one that pulls you back in.
-
-Warmly,
 The Member Experience Team"
 T0003,M00095,2026-05-10,eligible_request,escalate_to_human,True,vague,False,False,"Under both the monthly and annual caps; complaint reads as genuine. | Member explicitly states they already used the guarantee this same cycle, but that isn't reflected in our records -- verify in the order system before deciding rather than trusting either side blindly.",The Memory Theatre,True,False,"Hi there,
 
-Thanks for being so open with us about what's landing and what isn't — honestly, that's exactly the kind of feedback that helps us get your picks right, so no need to feel bad about reaching out.
+Thanks for being honest with us about The Memory Theatre not landing for you — and please don't feel bad about reaching out. Being upfront about what does and doesn't click is exactly how we get better at picking your books.
 
-I'm sorry The Memory Theatre didn't click for you, especially after A Year of Small Birds. It sounds like your friend's recommendation didn't quite match your taste the way you'd hoped.
+You mentioned you'd already used the guarantee earlier this month, and I want to make sure I've got the full picture on my end before we sort out your request for The Memory Theatre. I'm passing this along to one of our team members to take a closer look, and someone will follow up with you shortly.
 
-You mentioned you'd already used the guarantee earlier this month, and I want to make sure we look at your recent requests carefully before we sort this out for you. So I'm passing this along to a member of our team who'll review everything and follow up with you directly soon.
-
-Hang tight — we'll be in touch shortly.
+Hang tight — we'll be in touch soon.
 
 Warmly,
 The Member Experience Team"
 T0004,M00073,2026-05-10,eligible_request,auto_issue_coupon,True,specific,False,False,Under both the monthly and annual caps; complaint reads as genuine.,,False,False,"Hi there,
 
-Thanks for letting us know about your May book! You picked it expecting a literary thriller, and instead got a slow character study — that's a real mismatch, and it makes total sense that it wasn't what you were hoping for.
+Thanks for reaching out! You picked up on exactly the kind of mismatch the Reader's Guarantee is here for — a book billed as a literary thriller turning out to be a slow character study is a real gap between what you expected and what showed up in the box.
 
-I've applied your Reader's Guarantee credit to your account, so you'll have a coupon ready to use toward a future book that's more your speed.
+I've gone ahead and applied a credit to your account for your May book, so you can put it toward a pick that's more your speed.
 
-Happy reading,
+Happy reading, and thanks for being with us these past few months!
+
 The Member Experience Team"
 T0009,M00499,2026-05-10,eligible_request,auto_issue_coupon,True,vague,False,False,Under both the monthly and annual caps; complaint reads as genuine.,,False,False,"Hi there,
 
-Happy to help with this month's pick! You're right that it's been a while since you last used the Reader's Guarantee, so you're all set.
+Happy to help you use your Reader's Guarantee for this month's pick! And you're right that it's been a while since you last did—no problem at all.
 
-I've applied a credit to your account that you can put toward a future box. It should be ready to use right away the next time you check out.
+I've applied a credit to your account for this month's box, so you're all set. It'll be ready to use on a future selection whenever you'd like.
 
-Thanks for being with us these past 15 months — we hope next month's selection is more your speed.
+Thanks for being part of the club these past 15 months—we're glad to have you as a reader.
 
 Warmly,
 The Member Experience Team"
 T0012,M00073,2026-05-10,monthly_cap_violation,escalate_to_human,True,vague,True,False,Member already redeemed the guarantee 0 day(s) ago (within the 30-day monthly window). | Ticket bundles more than one distinct book/month request in a single message -- needs a human to confirm which request(s) apply before we issue anything.,The Cartographer's Daughter,False,True,"Hi there,
 
-Thanks for reaching out, and I'm sorry that The Cartographer's Daughter didn't land for you this month either.
+Thanks for reaching out, and I'm sorry to hear that The Cartographer's Daughter didn't land for you this month either.
 
-I see you're actually asking about two separate requests here — the April book from before, plus this month's pick — so I want to make sure we handle both correctly rather than guess. I've passed your note along to a member of our team, who will take a closer look at the details and follow up with you directly on how each one can be sorted out.
+I can see you've got two requests in play here — the April book from earlier, and now this month's pick — so I want to make sure we handle both correctly rather than guess. Because there are a couple of different things going on in your message, I'm passing this along to one of our team members who can look at the full picture and sort out exactly what applies to each.
 
-You don't need to do anything in the meantime — we'll be in touch soon.
+Someone will be in touch with you directly soon. I appreciate your patience while we get this right for you.
 
-Warmly,
+Warm regards,
 The Member Experience Team"
 T0013,M00087,2026-05-10,eligible_request,auto_issue_coupon,True,vague,False,False,Under both the monthly and annual caps; complaint reads as genuine.,Soft Country,False,False,"Hi there,
 
-Thanks for letting us know that Soft Country didn't hold your attention enough to finish it. Not every pick lands, and that's exactly what the Reader's Guarantee is for.
+Thanks for letting us know that Soft Country didn't hold your attention all the way through. Not every book lands, and that's exactly what the Reader's Guarantee is here for.
 
-I've applied a credit to your account to cover this month's book, so you can put it toward a title that's more your speed.
+I've added a credit for a replacement selection to your account, so your next box can bring you something that's a better fit.
 
-Thanks for being part of the box for the past two years — we appreciate you.
+Thanks for reading with us these past two years—we're glad you're here, and we'll keep working to send you books worth finishing.
 
+Warmly,
 The Member Experience Team"
 T0019,M00148,2026-05-10,other,escalate_to_human,False,vague,False,False,Not a Reader's Guarantee request (looks like: reactivation_policy_question).,,False,False,"Hi there,
 
-Thanks for reaching out before making your decision to come back — we'd genuinely love to have you as part of the club again after your 23 months with us.
+Thanks for reaching out before making the leap back — we'd genuinely love to have you return after your 23 months with us.
 
-Your question about whether your Reader's Guarantee history carries over or starts fresh when you reactivate is a good one, and I want to make sure you get an accurate answer rather than a guess. That detail depends on the specifics of how your previous membership was handled, so I'm passing this along to a member of our team who can look into your account directly and confirm exactly how it would work for you.
+Your question about whether your Reader's Guarantee history carries over or starts fresh when you reactivate is a good one, and I want to make sure you get an accurate answer rather than a guess. That detail can depend on the specifics of how and when your account was closed, so I've passed this along to a member of our team who can look at your account directly and give you a clear picture.
 
-You'll hear back from someone soon with a clear answer so you can plan accordingly.
+Someone will follow up with you soon so you can plan your return with all the facts in hand. Thanks for your patience in the meantime.
 
 Warmly,
 The Member Experience Team"
 T0006,M00002,2026-05-11,eligible_request,auto_issue_coupon,True,vague,False,False,Under both the monthly and annual caps; complaint reads as genuine.,,False,False,"Hi there,
 
-No need to apologize at all — asking questions is exactly what we're here for, and yes, the Reader's Guarantee is very real!
+No need to apologize at all — asking questions is exactly what you should be doing, especially when you're just getting started with us!
 
-Here's how it works: if a monthly pick doesn't land for you, we make it right. Since this month's book wasn't a fit, I've gone ahead and added a coupon to your account for a future box. You'll see it applied automatically the next time you check out, so there's nothing else you need to do.
+Yes, the Reader's Guarantee is very real, and it's there for exactly this kind of moment. When a monthly pick doesn't land for you, we want to make it right. Since this month's book wasn't a hit, I've gone ahead and applied a credit to your account for you.
 
-Two boxes in, you're still getting a feel for what we send — and not every pick is going to click, especially early on. The more months you're with us, the better we get at learning your taste, so hang in there.
+You'll see it automatically at your next order, so there's nothing else you need to do on your end.
 
-Happy reading, and welcome aboard!
+We know not every book will be a perfect match, and that's completely okay — part of the fun is figuring out what you love. Here's hoping next month's pick is more your speed. And welcome again; we're really glad to have you as part of our reader community.
 
+Warmly,
 The Member Experience Team"
 T0011,M00149,2026-05-11,other,escalate_to_human,False,vague,False,False,Not a Reader's Guarantee request (looks like: wrong_item_shipped).,,False,False,"Hi there,
 
-Thanks for reaching out, and I'm sorry about the mix-up. You selected The Lantern Room but received Salt and Honey instead, and you're right to want the book you actually chose.
+Thanks for reaching out, and sorry for the mix-up. You're right that this isn't a Reader's Guarantee situation at all — you selected The Lantern Room and simply received the wrong title, Salt and Honey, in your box. That's on us to sort out, not something you should have to spend your guarantee on.
 
-You've been with us for nearly two years, so I completely understand this is frustrating. Since this is a shipping error rather than a Reader's Guarantee matter, I've passed your message along to a member of our team who can look into what happened with your order and get the correct book sorted out for you. They'll follow up with you directly soon.
+Because this is a shipping error rather than a standard swap, I'm passing your message along to a member of our team who can look into what happened with your order and get the correct book to you. Someone will follow up with you directly soon.
 
-Thanks for your patience while we make this right.
+We appreciate you sticking with us these past couple of years, and thanks for your patience while we make this right.
 
+Warm regards,
 The Member Experience Team"
 T0015,M00179,2026-05-11,eligible_request,auto_issue_coupon,True,specific,False,False,Under both the monthly and annual caps; complaint reads as genuine.,Counting Backwards from Ten,False,False,"Hi there,
 
-Thanks for reaching out, and sorry that Counting Backwards from Ten turned out to be more graphic than the description led you to expect. That's exactly the kind of mismatch the Reader's Guarantee is here for.
+Thanks for reaching out, and sorry that Counting Backwards from Ten turned out to be more graphic than you were expecting — that's a jarring surprise when a book doesn't match what the description led you to picture.
 
-I've gone ahead and applied a credit for this month's box to your account, so you can put it toward a pick that's a better fit.
+I've gone ahead and applied your Reader's Guarantee credit: a coupon for your next box is now on your account and will apply automatically at your next billing.
 
-Thanks for being with us these past couple of years, and happy reading!
+Thanks for being with us these last couple of years — we appreciate you.
 
+Warmly,
 The Member Experience Team"
 T0017,M00045,2026-05-11,monthly_cap_violation,auto_deny_with_explanation,True,specific,True,False,Member already redeemed the guarantee 1 day(s) ago (within the 30-day monthly window).,The Inheritance of Wings,False,False,"Hi there,
 
-Thanks for following up, and I really do hear you on the literary fiction — when the curation keeps leaning one direction that isn't your thing, a whole box can feel like a miss. That's genuinely useful for us to know, and I'll make sure your feedback about too much literary fiction gets to the curation team so we can better dial in your recommendations going forward.
+Thanks for following up, and for being candid about what's been missing the mark. I hear you on the literary fiction — when the picks keep leaning in a direction that isn't your taste, it makes sense that a book like The Inheritance of Wings didn't land either.
 
-On The Inheritance of Wings specifically, though: I'm not able to apply the Reader's Guarantee to it right now. You used the guarantee just yesterday, and it's set up to be used once within a 30-day stretch — so it won't be available again until that window resets. This isn't a judgment on whether your feedback is honest; I don't doubt that at all. It's simply that the guarantee has already been redeemed for this period.
+Here's the honest part: our Reader's Guarantee is set up so it can be used once within a 30-day stretch, and since you redeemed it just yesterday, I'm not able to apply it to The Inheritance of Wings right now. I don't want to leave you guessing about that or make it sound like it might change — it's simply a limit on how often the guarantee can be used in a given month.
 
-The good news is it'll open back up for you soon, and in the meantime the notes you've shared should help us send you something that actually fits.
-
-Thanks for sticking with us these past nine months — we'd like to get the curation right for you.
+That said, the underlying issue is the one I'd really like to fix. Nine months in, your box should feel like it *gets* you, not like it's steering you somewhere you don't want to go. If you can tell me a bit about what you'd rather be reading — genres you love, a few recent books that hit the mark — I'll make sure that gets reflected in how your future selections are chosen. Getting the curation right is the whole point.
 
 Warmly,
 The Member Experience Team"
 T0020,M00499,2026-05-11,other,escalate_to_human,False,vague,False,False,Not a Reader's Guarantee request (looks like: billing_question).,,False,False,"Hi there,
 
-Thanks for reaching out, and I completely understand wanting to get this sorted quickly — seeing a charge you weren't expecting is unsettling, especially when you'd gone ahead and paused things last month.
+Thanks for reaching out, and I completely understand wanting to get to the bottom of this quickly. You're right to flag it—if you set your membership to pause last month, that charge is worth a closer look.
 
-To be clear, this isn't a Reader's Guarantee matter, so there's nothing you need to do on that front. What you're describing is a billing question, and I want to make sure it gets looked at properly rather than guessed at.
+Since this involves your billing history and the timing of when your pause was applied, I'm passing your message along to a teammate who can pull up your account details and trace exactly what happened with that charge. They'll be in touch soon with a clear answer, and if anything was billed that shouldn't have been, they'll sort it out with you directly.
 
-I'm passing this along to a teammate who can pull up your account, check the status of the pause you set last month, and see exactly what that charge is tied to. They'll follow up with you directly with what they find. Since you've been with us for over a year, we especially want to make sure everything on your account lines up the way you expect.
-
-You'll hear from someone soon.
+Thanks for being with us these past 15 months, and thanks for your patience while we look into this.
 
 Warmly,
 The Member Experience Team"
