@@ -81,6 +81,16 @@ def test_self_reported_same_cycle_conflict_forces_escalate_even_if_records_show_
     assert d.action == "escalate_to_human"
 
 
+def test_monthly_cap_is_calendar_month_not_rolling_window():
+    """Jan 31 -> Feb 1 is one day apart but a different calendar month, so it
+    should NOT trip the monthly cap, even though it's well within 30 days."""
+    m = member(last_request_date=date(2026, 1, 31))
+    d = decide(date(2026, 2, 1), m, extraction())
+    assert d.category == "eligible_request"
+    assert d.action == "auto_issue_coupon"
+    assert not d.monthly_cap_hit
+
+
 def test_same_batch_double_dip():
     """Two tickets from the same member, 1 day apart, both individually 'under cap'
     against the static ledger -- but the second must see the first's approval."""

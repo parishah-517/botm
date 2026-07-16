@@ -76,7 +76,7 @@ actual rule:
 1. Not a guarantee request at all (damaged book, wrong item, billing,
    cancellation question, etc.) → `other`, escalate to a human. A coupon
    can't fix a billing question.
-2. Already used the guarantee within the last 30 days (checked against the
+2. Already used the guarantee this same calendar month (checked against the
    member's actual ledger, not their word) → `monthly_cap_violation`, deny.
    This is a hard, objective rule -- doesn't matter how good the complaint
    is, you don't get a second swap for the same box.
@@ -110,9 +110,12 @@ as a holding note rather than a promise of a particular outcome.
 
 ### Why caps and thresholds are what they are
 
-- **30-day monthly window:** a guarantee redemption is tied to *this* box.
-  A second one 30+ days later is a different box/cycle; a second one days
-  later is the same one.
+- **One request per calendar month:** a guarantee redemption is tied to
+  *this* box. A second request in the same calendar month is the same
+  box/cycle; a request in the next calendar month is a different one. This
+  is a calendar-month boundary, not a rolling N-day window -- a request on
+  Jan 31 and another on Feb 1 are two separate months and don't trip the
+  cap, even though they're only a day apart.
 - **3 redemptions / trailing 12 months:** not given by the assignment --
   inferred from the member ledger itself, where `guarantee_requests_last_12mo`
   never exceeds 3 across all 500 members. That ceiling is already acting
@@ -142,6 +145,6 @@ double-approved.
   has to go check the real order history and decide. Hooking this up to
   the live order/redemption system instead of a static CSV snapshot would
   let it resolve some of these on its own instead of just flagging them.
-- Cap thresholds (30 days, 3/year) are this system's own inference from the
-  data, not a given business rule -- worth confirming against the actual
-  policy before using this in production.
+- Cap thresholds (one/calendar month, 3/year) are this system's own
+  inference from the data, not a given business rule -- worth confirming
+  against the actual policy before using this in production.

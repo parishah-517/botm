@@ -11,11 +11,15 @@ question auditable and keeps the LLM from having to do arithmetic on dates.
 
 Thresholds (documented here, discussed at length in WRITEUP.md):
 
-  MONTHLY_CAP_WINDOW_DAYS = 30
+  One request per calendar month.
       A Reader's Guarantee redemption is tied to "this box" -- it doesn't
       make sense to grant a second one for the same shipment cycle. We treat
-      any new request arriving within 30 days of the member's last approved
-      request as hitting the monthly cap, independent of the annual count.
+      a new request as hitting the monthly cap if the member's last approved
+      request falls in the same calendar month (year + month) as this
+      ticket, independent of the annual count. This is a calendar-month
+      boundary, not a rolling N-day window -- a request on Jan 31 and
+      another on Feb 1 are two separate months and do not violate the cap,
+      even though they're a day apart.
 
   ANNUAL_CAP = 3
       Looking at member-activity.csv, guarantee_requests_last_12mo tops out
@@ -31,10 +35,9 @@ Thresholds (documented here, discussed at length in WRITEUP.md):
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from datetime import date, timedelta
+from datetime import date
 from typing import Optional
 
-MONTHLY_CAP_WINDOW_DAYS = 30
 ANNUAL_CAP = 3
 
 CATEGORIES = (
@@ -120,15 +123,15 @@ def decide(
     # 2. Deterministic cap math against the (possibly batch-updated) ledger.
     monthly_hit = (
         member.last_request_date is not None
-        and (ticket_date - member.last_request_date).days < MONTHLY_CAP_WINDOW_DAYS
+        and member.last_request_date.year == ticket_date.year
+        and member.last_request_date.month == ticket_date.month
     )
     annual_hit = member.guarantee_requests_last_12mo >= ANNUAL_CAP
 
     if monthly_hit:
-        gap = (ticket_date - member.last_request_date).days
         reasons.append(
-            f"Member already redeemed the guarantee {gap} day(s) ago "
-            f"(within the {MONTHLY_CAP_WINDOW_DAYS}-day monthly window)."
+            f"Member already redeemed the guarantee this same calendar month "
+            f"(last redemption: {member.last_request_date})."
         )
         category, action = "monthly_cap_violation", "auto_deny_with_explanation"
     elif annual_hit:
