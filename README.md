@@ -134,9 +134,14 @@ double-approved.
 - The "specific vs. vague complaint" call is a judgment Claude makes per
   ticket -- it isn't checked against human-labeled examples. Before trusting
   it unsupervised, it'd be worth building a small labeled eval set.
-- Self-reported conflicts and multi-request tickets are escalated, not
-  resolved -- there's no integration with an actual order system to verify
-  what really happened, so a human still has to look.
+- When the system escalates a multi-request ticket or a self-reported
+  conflict, all it's done is notice the problem -- it hasn't solved it. It
+  doesn't try to split a ticket that asks for two different books' worth of
+  guarantee, and it doesn't try to decide who's right when a member says
+  "I already used this this month" but the ledger disagrees. A human still
+  has to go check the real order history and decide. Hooking this up to
+  the live order/redemption system instead of a static CSV snapshot would
+  let it resolve some of these on its own instead of just flagging them.
 - Cap thresholds (30 days, 3/year) are this system's own inference from the
   data, not a given business rule -- worth confirming against the actual
   policy before using this in production.
