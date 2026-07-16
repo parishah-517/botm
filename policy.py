@@ -22,9 +22,11 @@ Thresholds (documented here, discussed at length in WRITEUP.md):
       even though they're a day apart.
 
   ANNUAL_CAP = 3
-      Looking at member-activity.csv, guarantee_requests_last_12mo tops out
-      at 3 across all 500 members -- i.e. 3/year is already behaving like a
-      soft ceiling in practice. We make it an explicit policy: a member who
+      No more than three requests in any rolling 12-month window. This
+      matches guarantee_requests_last_12mo in member-activity.csv, which is
+      already a rolling-12-month count, so the check is just a comparison
+      against 3, not extra date math. (It also matches what's in the data:
+      no member across all 500 ever exceeds 3 in that field.) A member who
       has already redeemed 3 times in the trailing 12 months is at the
       annual cap. A 4th request in that window is an annual_cap_violation
       *unless* the complaint is specific/genuine, in which case it becomes

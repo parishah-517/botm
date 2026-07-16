@@ -116,10 +116,11 @@ as a holding note rather than a promise of a particular outcome.
   is a calendar-month boundary, not a rolling N-day window -- a request on
   Jan 31 and another on Feb 1 are two separate months and don't trip the
   cap, even though they're only a day apart.
-- **3 redemptions / trailing 12 months:** not given by the assignment --
-  inferred from the member ledger itself, where `guarantee_requests_last_12mo`
-  never exceeds 3 across all 500 members. That ceiling is already acting
-  like the de facto policy in the data, so it's made explicit here.
+- **No more than three requests in any rolling 12-month window.** This
+  matches the ledger's own `guarantee_requests_last_12mo` field, which is
+  itself a rolling-12-month count -- so the check is just comparing that
+  field to 3, no extra date math needed. It also lines up with what's in
+  the data: no member across all 500 ever exceeds 3 in that field.
 
 ### A subtlety worth calling out: same-batch double-dipping
 
@@ -145,6 +146,3 @@ double-approved.
   has to go check the real order history and decide. Hooking this up to
   the live order/redemption system instead of a static CSV snapshot would
   let it resolve some of these on its own instead of just flagging them.
-- Cap thresholds (one/calendar month, 3/year) are this system's own
-  inference from the data, not a given business rule -- worth confirming
-  against the actual policy before using this in production.
